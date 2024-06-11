@@ -28,8 +28,6 @@ np.random.seed(42)
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3), dtype="uint8")
 
 # derive the paths to the model weights and model configuration
-# weightsPath = 'D:\cctv\illegal-parking-detection\\adminResources\models\yolov4.weights'
-# configPath = 'D:\cctv\illegal-parking-detection\\adminResources\models\yolov4.cfg'
 weightsPath = f'{execution_path}\\adminResources\models\yolov4.weights'
 configPath = f'{execution_path}\\adminResources\models\yolov4.cfg'
 # load our model object detector trained on COCO dataset (80 classes)
